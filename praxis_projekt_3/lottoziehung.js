@@ -8,7 +8,6 @@ for (let i = 1; i <= 49; i++) {
 }
 
 // Funktion für die Lottoziehung
-
 function runLottery() {
     // Array für die 6 Gewinnzahlen
     const winningNumbers =[];
