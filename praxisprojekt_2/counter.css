@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 400px;
+    overflow: hidden;
+}
+
+#counterLayout {
+    position: relative;
+    width: 120px;
+    top: 60px;
+    margin: auto;
+    padding: 4px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: red;
+}
