@@ -1,5 +1,4 @@
 // Array für alle 49 Zahlen 
-
 const numbers = [];
 
 // Zahlen von 1 bis 49 dem Array zuweisen
