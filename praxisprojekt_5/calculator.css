@@ -1,0 +1,69 @@
+body {
+background-color: #001;
+color: white;
+display: flex;
+justify-content: center; /*horizontale Ausrichtung*/
+align-items: center; /*vertikale Ausrichtung*/
+height: 100vh;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#display, 
+#display::placeholder {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    text-align: end;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 24px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    background-color: #555;
+    color: white;
+    font-size: 24px;
+    padding: 10px; 
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+} 
+
+button:hover {
+    background-color: #777;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.multiply {
+    padding: 8px 0 0 0;
+}
+
+.zero {
+    grid-column: 1 / span 2;
+}
+
+.clear {
+    background-color: indianred;
+    grid-column: 1 / span 2; /*Der erste Wert gibt die Start-Column an, der 2. Wert die Nummer der Columns, über die sich das Element erstrecken soll*/
+}
+
+.equals {
+    grid-column: 3 / span 2;
+    background-color: cadetblue;
+}
